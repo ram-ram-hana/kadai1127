@@ -15,4 +15,7 @@ const server = http.createServer((req, res) => {
                 res.write('凶です')
             }
         res.end()
-    })
+})
+
+server.listen(4000)
+console.log("The server is listening...")
